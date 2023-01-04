@@ -10,9 +10,9 @@ AKS is Azure's managed service for Kubernetes.
 
 Deployment Strategies (e.g. Blue / Green deployments, Rolling upgrades)
 
-##Exposing AKS Services 
+## Exposing AKS Services 
 Within AKS, services running on Kubernetes are integrated with Azure Load Balancer (L4 LB) and Kubernetes Ingresses can be integrated with Azure Application Gateway (L7 LB).
 
-##AKS Integration with RBAC and AD
+## AKS Integration with RBAC and AD
 RBAC defines which users can access to which resources and what actions they can take on them.
 ##AKS Integration with Azure Monitor 
