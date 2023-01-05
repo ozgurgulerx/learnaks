@@ -7,13 +7,13 @@ I tried to make the content as much different as possible from Azure AKS documen
 The order of content below follows my priorities at work. Please feel free to start as you see fit...
 
 
-00 - Cloud Native Apps with AKS 
-01 - Create an AKS cluster with Terraform 
-02 - Deploy a service onto the cluster & Test scaling & basic functionality 
-04 - Expose AKS services through Azure ALB, Front Door 
-05 - Integrate AKS apps with Azure DevOps
-06 - Build a Scalable Digital Native Infrastructure with AKS 
-07 - Integrate AKS apps with GitHub DevOps / GitOps 
+- 00 - Cloud Native Apps with AKS 
+- 01 - Create an AKS cluster with Terraform 
+- 02 - Deploy a service onto the cluster & Test scaling & basic functionality 
+- 03 - Expose AKS services through Azure ALB, Front Door 
+- 04 - Integrate AKS apps with Azure DevOps
+- 05 - Build a Scalable Digital Native Infrastructure with AKS 
+- 06 - Integrate AKS apps with GitHub DevOps / GitOps 
 08 - AKS and microservices frameworks - SpringBoot, SteelToe 
 09 - Deploying .NET microservices with AKS & Azure DevOps 
 10 - AKS Networking 
