@@ -14,18 +14,18 @@ The order of content below follows my priorities at work. Please feel free to st
 - 04 - Integrate AKS apps with Azure DevOps
 - 05 - Build a Scalable Digital Native Infrastructure with AKS 
 - 06 - Integrate AKS apps with GitHub DevOps / GitOps 
-08 - AKS and microservices frameworks - SpringBoot, SteelToe 
-09 - Deploying .NET microservices with AKS & Azure DevOps 
-10 - AKS Networking 
-11 - AKS & Istio Integration
-11 - AKS Security - integration with RBAC and Azure AD 
-12 - Monitoring AKS - Azure Monitor, Grapfana integrations 
-12 - AKS Best Practices 
-13 - Building SaaS applications with AKS
-14 - Working with AKS & Helm 
-15 - ML training on AKS with Kubeflow
-16 - Build workflows with Argo 
-17 - Gamehosting on AKS with Azure Thundernetes 
+- 08 - AKS and microservices frameworks - SpringBoot, SteelToe 
+- 09 - Deploying .NET microservices with AKS & Azure DevOps 
+- 10 - AKS Networking 
+- 11 - AKS & Istio Integration
+- 12 - AKS Security - integration with RBAC and Azure AD 
+- 12 - Monitoring AKS - Azure Monitor, Grapfana integrations 
+- 12 - AKS Best Practices 
+- 13 - Building SaaS applications with AKS
+- 14 - Working with AKS & Helm 
+- 15 - ML training on AKS with Kubeflow
+- 16 - Build workflows with Argo 
+- 17 - Gamehosting on AKS with Azure Thundernetes 
 
 
 References:
