@@ -1,5 +1,5 @@
 # LEARN-AKS 
-This project is to help anyone learn AKS with "deliberate practice". (Inspired by the book [UltraLearning](https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X) and inline with the recent hip in SA circles "show your work" and Feynmans "best way to learn is to teach!".
+This project is to help anyone learn AKS with "deliberate practice". (Inspired by the book [UltraLearning](https://www.amazon.com/Ultralearning-Master-Outsmart-Competition-Accelerate/dp/006285268X) and inline with the recent hip in SA circles "show your work" and Feynmans "best way to learn is to teach!" mindset.)
 
 I decided to configure everything with "Terraform" throughout this tutorial. Terraform is beginning to take wide traction by the community and it is generally difficult to find .tf code for anyone would like to start deployign with Terraform. I believe it will help with easier adoption by the audience new to AKS.
 I tried to make the content as much different as possible from Azure AKS documentation with the feedback I got from my customers, usually with what my customers are working in their production environments. 
