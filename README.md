@@ -10,9 +10,17 @@ AKS is Azure's managed service for Kubernetes.
 
 Deployment Strategies (e.g. Blue / Green deployments, Rolling upgrades)
 
+## Create an AKS Cluster with Terraform 
+We will start with creating an AKS cluster with Terraform.
+
+
 ## Exposing AKS Services 
 Within AKS, services running on Kubernetes are integrated with Azure Load Balancer (L4 LB) and Kubernetes Ingresses can be integrated with Azure Application Gateway (L7 LB).
 
 ## AKS Integration with RBAC and AD
 RBAC defines which users can access to which resources and what actions they can take on them.
 ##AKS Integration with Azure Monitor 
+
+
+References:
+Microsoft Learn: Quickstart: [Create a Kubernetes cluster with Azure Kubernetes Service using Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-tf-and-aks)
