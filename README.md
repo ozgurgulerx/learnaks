@@ -29,9 +29,10 @@ The order of content below follows my priorities at work. Please feel free to st
 
 
 References:
-Microsoft Learn: Quickstart: [Create a Kubernetes cluster with Azure Kubernetes Service using Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-tf-and-aks)
-Book - Hacking Kubernetes 
-Book - Production Kubernetes 
-Book - Kubernetes Patterns 
-Book - Core Kubernetes 
+- Microsoft Learn: Quickstart: [Create a Kubernetes cluster with Azure Kubernetes Service using Terraform](https://learn.microsoft.com/en-us/azure/developer/terraform/create-k8s-cluster-with-tf-and-aks)
+- Book - Hacking Kubernetes 
+- Book - Production Kubernetes 
+- Book - Kubernetes Patterns 
+- Book - Core Kubernetes 
+- Book - Kubernetes Native Microservices (Quarkus)
 
