@@ -10,5 +10,4 @@ az aks get-credentials \
 
 You can then start using kubectl with your AKS cluster...
 
-
-<img width="709" alt="Screenshot 2023-01-10 at 08 56 30" src="https://user-images.githubusercontent.com/97877847/211472808-578bfa3c-d538-44f8-af5a-70d866dda886.png">
+<img width="676" alt="2023-01-10 09 02 50 AM" src="https://user-images.githubusercontent.com/97877847/211473687-56d0bbba-a498-4f12-bf76-b3d60e248f35.png">
