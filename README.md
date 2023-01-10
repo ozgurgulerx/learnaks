@@ -7,7 +7,7 @@ I tried to make the content as much different as possible from Azure AKS documen
 The order of content below follows my priorities at work. Please feel free to start as you see fit...
 
 
-- 00 - Cloud Native Apps with AKS 
+- [00 - Cloud Native Apps with AKS](https://github.com/ozgurgulerx/learnaks/tree/main/00%20-%20Introduction%20to%20Kubernetes%20-%20Concepts) 
 - [01 - Create an AKS cluster with Terraform](https://github.com/ozgurgulerx/learnaks/tree/main/01-Launch%20AKS%20Cluster%20with%20Terraform) 
 - 02 - Deploy a service onto the cluster & Test scaling & basic functionality 
 - 03 - Expose AKS services through Azure ALB, Front Door 
