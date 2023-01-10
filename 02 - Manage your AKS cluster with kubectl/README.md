@@ -19,3 +19,8 @@ Then copy the application code with...\
 
 Deploy the application with 
 ```kubectl create -f azure-vote-all-in-one-redis.yaml```
+
+Verify the deployment with...
+```kubectl get pods```
+
+<img width="684" alt="image" src="https://user-images.githubusercontent.com/97877847/211478709-7e766e27-a0f0-477f-9e51-29edc0263fe3.png">
