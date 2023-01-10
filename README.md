@@ -10,7 +10,7 @@ The order of content below follows my priorities at work. Please feel free to st
 - [00 - Cloud Native Apps with AKS](https://github.com/ozgurgulerx/learnaks/tree/main/00%20-%20Introduction%20to%20Kubernetes%20-%20Concepts) 
 - [01 - Create an AKS cluster with Terraform](https://github.com/ozgurgulerx/learnaks/tree/main/01-Launch%20AKS%20Cluster%20with%20Terraform) 
 - [02 - Manage your AKS cluster with kubectl](https://github.com/ozgurgulerx/learnaks/tree/main/02%20-%20Manage%20your%20AKS%20cluster%20with%20kubectl) 
-- 03 - Deploy a service onto the cluster & Test scaling & basic functionality 
+- [03 - Deploy a service onto the cluster & Test scaling & basic functionality](https://github.com/ozgurgulerx/learnaks/tree/main/03%20-%20Deploy%20a%20service%20onto%20the%20cluster%20&%20Test%20scaling%20&%20basic%20functionality) 
 - 04 - Expose AKS services through Azure ALB, Front Door 
 - 05 - Integrate AKS apps with Azure DevOps
 - 06 - Build a Scalable Digital Native Infrastructure with AKS 
