@@ -16,4 +16,4 @@ Then copy the application code with...
 git clone https://github.com/Azure-Samples/azure-voting-app-redis.git
 
 Then deploy the application with 
-'kubectl create -f azure-vote-all-in-one-redis.yaml'
+```kubectl create -f azure-vote-all-in-one-redis.yaml```
