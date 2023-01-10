@@ -34,7 +34,6 @@ You will then be able to access the app using the LB IP address...
 
 You can see all the details of your deployment with 
 ```kubectl get all```
-<img width="887" alt="image" src="https://user-images.githubusercontent.com/97877847/211479618-c69ee34d-857a-45aa-8b37-edefef05bd0a.png">
 
 <img width="887" alt="image" src="https://user-images.githubusercontent.com/97877847/211479560-8713e2ab-e1cc-4623-8ea7-457671a0f58a.png">
 
