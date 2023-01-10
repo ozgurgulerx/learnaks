@@ -31,3 +31,10 @@ To get the IP address of the load balancer which you can use to access the appli
 
 You will then be able to access the app using the LB IP address...
 <img width="630" alt="image" src="https://user-images.githubusercontent.com/97877847/211479277-4be8fe07-b265-4824-b3ae-fc0c952ed0a6.png">
+
+You can see all the details of your deployment with 
+```kubectl get all```
+<img width="887" alt="image" src="https://user-images.githubusercontent.com/97877847/211479618-c69ee34d-857a-45aa-8b37-edefef05bd0a.png">
+
+<img width="887" alt="image" src="https://user-images.githubusercontent.com/97877847/211479560-8713e2ab-e1cc-4623-8ea7-457671a0f58a.png">
+
