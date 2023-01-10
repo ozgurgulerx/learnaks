@@ -1,3 +1,5 @@
+Below we will go step by step to deploy a basic application to the kubernetes cluster that we created earler.
+
 Then copy the application code with...\
 ```git clone https://github.com/Azure-Samples/azure-voting-app-redis.git```
 
@@ -30,4 +32,6 @@ You will also see two deployments and two ReplicaSets.
 You can see the same via the portal too...
 <img width="1216" alt="image" src="https://user-images.githubusercontent.com/97877847/211556241-5341c562-c099-4e56-aba3-3bccea606ed0.png">
 
-...and lastly delete your deployments with ```kubectl delete -f azure-vote.yaml```
+...and lastly delete your deployments with ```kubectl delete -f azure-vote-all-in-one-redis.yaml```
+
+<img width="855" alt="image" src="https://user-images.githubusercontent.com/97877847/211558488-dd82479b-2c8c-4e76-8332-fcd6ae64423c.png">
