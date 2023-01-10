@@ -34,7 +34,9 @@ Once these are done you can move to Ref 2 and follow steps 3, 4...\
 4. Create main.tf, variables.tf, outputs.tf as explained in the doc.\
 5. Once everything is in place you can run terraform plan to create an execution plan.\
 
-'terraform plan -out main.tfplan'
+`terraform plan -out main.tfplan` \
+and finally run the execution plan to create your AKS cluster on Azure.\
+`terraform apply main.tfplan` \
 
 
 
