@@ -8,7 +8,7 @@ The order of content below follows my priorities at work. Please feel free to st
 
 
 - 00 - Cloud Native Apps with AKS 
-- 01 - Create an AKS cluster with Terraform 
+- [01 - Create an AKS cluster with Terraform](https://github.com/ozgurgulerx/learnaks/tree/main/01-Launch%20AKS%20Cluster%20with%20Terraform) 
 - 02 - Deploy a service onto the cluster & Test scaling & basic functionality 
 - 03 - Expose AKS services through Azure ALB, Front Door 
 - 04 - Integrate AKS apps with Azure DevOps
