@@ -36,7 +36,8 @@ Once these are done you can move to Ref 2 and follow steps 3, 4...\
 
 `terraform plan -out main.tfplan` \
 and finally run the execution plan to create your AKS cluster on Azure.\
-`terraform apply main.tfplan` \
+`terraform apply main.tfplan` 
+
 
 
 
