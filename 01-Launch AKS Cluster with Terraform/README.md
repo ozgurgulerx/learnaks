@@ -21,13 +21,15 @@ Copy the output (service principal credentials) to be used for the following ste
 (This is throughly explained in Ref 1. below.) 
 
 It is important to correctly map the ouputs of "azure ad sp create" into bash environment variables and later into the prodivers block in providers.tf. \
-Quick heads up for appID being mapped into clientID. 
+Be careful mapping appID into clientID both while updating .bashrc and while updating provider.tf.
 
+Edit ~/.bashrc and add the following as environment variables...
 export ARM_SUBSCRIPTION_ID="[subscription ID of your Azure account]" \
 export ARM_TENANT_ID="tttt" \
 export ARM_CLIENT_ID="xxxx" \
 export ARM_CLIENT_SECRET="zzzz" 
 
+Then source the file with `source ~/.bashrc` so that variables take affect.
 Once these are done you can move to Ref 2 and follow steps 3, 4...
 
 3. Create providers.tf and embed your terraform principal credentials into the file.
