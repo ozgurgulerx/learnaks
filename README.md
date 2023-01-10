@@ -12,22 +12,23 @@ The order of content below follows my priorities at work. Please feel free to st
 - [01 - Create an AKS cluster with Terraform](https://github.com/ozgurgulerx/learnaks/tree/main/01-Launch%20AKS%20Cluster%20with%20Terraform) 
 - [02 - Manage your AKS cluster with kubectl](https://github.com/ozgurgulerx/learnaks/tree/main/02%20-%20Manage%20your%20AKS%20cluster%20with%20kubectl) 
 - [03 - Deploy a service onto the cluster & Test scaling & basic functionality](https://github.com/ozgurgulerx/learnaks/tree/main/03%20-%20Deploy%20a%20service%20onto%20the%20cluster%20&%20Test%20scaling%20&%20basic%20functionality) 
-- 04 - Expose AKS services through Azure ALB, Front Door 
-- 05 - Integrate AKS apps with Azure DevOps
-- 06 - Build a Scalable Digital Native Infrastructure with AKS 
-- 07 - Integrate AKS apps with GitHub DevOps / GitOps 
-- 08 - AKS and microservices frameworks - SpringBoot, SteelToe 
-- 09 - Deploying .NET microservices with AKS & Azure DevOps 
-- 10 - AKS Networking 
-- 11 - AKS & Istio Integration
-- 12 - AKS Security - integration with RBAC and Azure AD 
-- 12 - Monitoring AKS - Azure Monitor, Grapfana integrations 
-- 12 - AKS Best Practices 
-- 13 - Building SaaS applications with AKS
-- 14 - Working with AKS & Helm 
-- 15 - ML training on AKS with Kubeflow
-- 16 - Build workflows with Argo 
-- 17 - Gamehosting on AKS with Azure Thundernetes 
+- 04 - Deploying applications to k8s with HELM 
+- 05 - Expose AKS services through Azure ALB, Front Door 
+- 06 - Integrate AKS apps with Azure DevOps
+- 07 - Build a Scalable Digital Native Infrastructure with AKS 
+- 08 - Integrate AKS apps with GitHub DevOps / GitOps 
+- 09 - AKS and microservices frameworks - SpringBoot, SteelToe 
+- 10 - Deploying .NET microservices with AKS & Azure DevOps 
+- 11 - AKS Networking 
+- 12 - AKS & Istio Integration
+- 13 - AKS Security - integration with RBAC and Azure AD 
+- 14 - Monitoring AKS - Azure Monitor, Grapfana integrations 
+- 15 - AKS Best Practices 
+- 16 - Building SaaS applications with AKS
+- 17 - Working with AKS & Helm 
+- 18 - ML training on AKS with Kubeflow
+- 19 - Build workflows with Argo 
+- 20 - Gamehosting on AKS with Azure Thundernetes 
 
 
 References:
