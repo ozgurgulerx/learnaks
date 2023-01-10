@@ -14,7 +14,7 @@ You will get a response like the below...\
   "displayName": "principal_x", 
   "password": "zzzzz",
   "tenant": "ttttt"
-}`
+}` \
 Copy the output (service principal credentials) to be used for the following steps...
 
 2. Define terraform service principal credentials in bash environment variables. \
