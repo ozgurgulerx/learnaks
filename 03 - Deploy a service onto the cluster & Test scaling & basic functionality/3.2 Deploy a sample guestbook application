@@ -1,1 +1,7 @@
 
+In this section we will deploy the classic guestbook sample k8s application. 
+We will be mostly following the steps from https://kubernetes.io/docs/tutorials/stateless-application/guestbook/ 
+
+Guestbook app is a multi-tier web application.
+The different tiers in the app will have multiple instances.
+Frontend is a stateless app whereas the backend is the stateful tier keeping guestbook entries on redis.
