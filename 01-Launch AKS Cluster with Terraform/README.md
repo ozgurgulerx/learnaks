@@ -21,7 +21,7 @@ Copy the output (service principal credentials) to be used for the following ste
 (This is throughly explained in Ref 1. below.) 
 
 It is important to correctly map the ouputs of "azure ad sp create" into bash environment variables and later into the prodivers block in providers.tf. \
-Quick heads up for appID being mapped into clientID. \
+Quick heads up for appID being mapped into clientID. 
 
 export ARM_SUBSCRIPTION_ID="[subscription ID of your Azure account]" \
 export ARM_TENANT_ID="tttt" \
