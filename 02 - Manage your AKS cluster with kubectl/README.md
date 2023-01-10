@@ -17,5 +17,5 @@ You can then start using kubectl with your AKS cluster...
 Then copy the application code with...\
 ```git clone https://github.com/Azure-Samples/azure-voting-app-redis.git```
 
-Then deploy the application with 
+Deploy the application with 
 ```kubectl create -f azure-vote-all-in-one-redis.yaml```
