@@ -26,9 +26,9 @@ Quick heads up for appID being mapped into clientID. \
 export ARM_SUBSCRIPTION_ID="[subscription ID of your Azure account]" \
 export ARM_TENANT_ID="tttt" \
 export ARM_CLIENT_ID="xxxx" \
-export ARM_CLIENT_SECRET="zzzz" \
+export ARM_CLIENT_SECRET="zzzz" 
 
-Once these are done you can move to Ref 2 and follow steps 3, 4...\
+Once these are done you can move to Ref 2 and follow steps 3, 4...
 
 3. Create providers.tf and embed your terraform principal credentials into the file.
 
