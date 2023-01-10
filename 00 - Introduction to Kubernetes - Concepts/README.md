@@ -1,3 +1,6 @@
+# KUBERNETES CORE CONCEPTS 
+
+## MICROSERVICES ARCHITECTURE
 Microservices architecture is common when developing distributed systems. 
 A microservices application consists of a group of services that work together to form an application, while the individual services themselves can be built, tested, deployed, and scaled independently of each other. 
 Those services work together over a network , commonly using HTTP REST APIs or gRPC. 
