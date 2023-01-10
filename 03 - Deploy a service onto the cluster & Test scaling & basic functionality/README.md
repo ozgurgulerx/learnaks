@@ -1,1 +1,3 @@
 This repo includes various examples of apps being deployed onto a k8s cluster.
+
+[3.1 Deploy a simple voting app](https://github.com/ozgurgulerx/learnaks/blob/main/03%20-%20Deploy%20a%20service%20onto%20the%20cluster%20%26%20Test%20scaling%20%26%20basic%20functionality/3.1%20Deploy%20a%20simple%20voting%20app.md)
