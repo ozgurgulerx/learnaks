@@ -1,45 +1,45 @@
-1  apiVersion: apps/v1
-2  kind: Deployment
-3  metadata:
-4    name: redis-master
-5    labels:
-6      app: redis
-7  spec:
-8    selector:
-9      matchLabels:
-10       app: redis
-11       role: master
-12       tier: backend
-13   replicas: 1
-14   template:
-15     metadata:
-16       labels:
-17         app: redis
-18         role: master
-19         tier: backend
-20     spec:
-21       containers:
-22       - name: master
-23         image: k8s.gcr.io/redis:e2e
-24         command:
-25         - redis-server
-26         - "/redis-master/redis.conf"
-27         env:
-28         - name: MASTER
-29           value: "true"
-30         volumeMounts:
-31         - mountPath: /redis-master
-32           name: config
-33         resources:
-34           requests:
-35             cpu: 100m
-36             memory: 100Mi
-37         ports:
-38         - containerPort: 6379
-39       volumes:
-40         - name: config
-41           configMap:
-42             name: example-redis-config
-43             items:
-44             - key: redis-config
-45               path: redis.conf
+  apiVersion: apps/v1
+  kind: Deployment
+  metadata:
+    name: redis-master
+    labels:
+      app: redis
+  spec:
+    selector:
+      matchLabels:
+       app: redis
+       role: master
+       tier: backend
+   replicas: 1
+   template:
+     metadata:
+       labels:
+         app: redis
+         role: master
+         tier: backend
+     spec:
+       containers:
+       - name: master
+         image: k8s.gcr.io/redis:e2e
+         command:
+         - redis-server
+         - "/redis-master/redis.conf"
+         env:
+         - name: MASTER
+           value: "true"
+         volumeMounts:
+         - mountPath: /redis-master
+           name: config
+         resources:
+           requests:
+             cpu: 100m
+             memory: 100Mi
+         ports:
+         - containerPort: 6379
+       volumes:
+         - name: config
+           configMap:
+             name: example-redis-config
+             items:
+             - key: redis-config
+               path: redis.conf
