@@ -24,3 +24,10 @@ Verify the deployment with...\
 ```kubectl get pods```
 
 <img width="684" alt="image" src="https://user-images.githubusercontent.com/97877847/211478709-7e766e27-a0f0-477f-9e51-29edc0263fe3.png">
+
+To get the IP address of the load balancer which you can use to access the application use...
+```kubectl get service azure-vote-front --watch```
+<img width="826" alt="image" src="https://user-images.githubusercontent.com/97877847/211479137-2c5dbc4a-b90d-48d0-b52a-01b9d42b5803.png">
+
+You will then be able to access the app using the LB IP address...
+<img width="630" alt="image" src="https://user-images.githubusercontent.com/97877847/211479277-4be8fe07-b265-4824-b3ae-fc0c952ed0a6.png">
