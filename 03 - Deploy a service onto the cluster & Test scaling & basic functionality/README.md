@@ -21,7 +21,8 @@ You can see all the details of your deployment with
 
 <img width="887" alt="image" src="https://user-images.githubusercontent.com/97877847/211479560-8713e2ab-e1cc-4623-8ea7-457671a0f58a.png">
 You see two pods one for the backend and one for the frontend.
-You see two services. The first one is for the backend and is of "ClusterIP" type. The second is for the frontend and is of "LoadBalancer" type. You will also see two deployments and two ReplicaSets.
+You see three services. The first one is for the backend and is of "ClusterIP" type. The second is for the frontend and is of "LoadBalancer" type. \
+You will also see two deployments and two ReplicaSets.
 
 You can see the same via the portal too...
 <img width="1216" alt="image" src="https://user-images.githubusercontent.com/97877847/211556241-5341c562-c099-4e56-aba3-3bccea606ed0.png">
