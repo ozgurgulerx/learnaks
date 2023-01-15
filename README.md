@@ -26,7 +26,7 @@ The order of content below follows my priorities at work. Please feel free to st
 - 15 - AKS Best Practices 
 - 16 - Building SaaS applications with AKS
 - 17 - Working with AKS & Helm 
-- 18 - ML training on AKS with Kubeflow
+- [18 - ML training on AKS with Kubeflow]()
 - 19 - Build workflows with Argo 
 - 20 - Gamehosting on AKS with Azure Thundernetes 
 
