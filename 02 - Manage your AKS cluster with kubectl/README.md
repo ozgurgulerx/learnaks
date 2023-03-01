@@ -4,6 +4,16 @@ kubectl is the CLI tool used to manage k8s clusters.
 kubectl uses a configuration file stored in ~/.kube/config to store credentials to access your cluster.
 ...to get the correct credentials to to access your cluster you need to type in the following command...
 
+Create your cluster with...
+```
+az aks create \
+    --resource-group myResourceGroup \
+    --name myAKSCluster \
+    --node-count 2 \
+    --generate-ssh-keys \
+    --attach-acr <acrName>
+```
+
 ```
 az aks get-credentials \
 --resource-group [rg-name] \
